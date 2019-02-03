@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'EmiFont';
+    font-style: normal;
+    font-weight: normal;
+    src: local('old_stamper.ttf'), url('old_stamper.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+h1 {
+    font-family: 'EmiFont';
+}
+

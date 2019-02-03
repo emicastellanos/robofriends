@@ -22,9 +22,9 @@ const CardList = ({robots}) => {
                     return (
                         <Card
                         key={index} 
-                        id={robots[index].id} 
-                        name={robots[index].name} 
-                        email={robots[index].email} 
+                        id={user.id} 
+                        name={user.name} 
+                        email={user.email} 
                         />
                         );
                     }) // en realidad va entre llaves porque es javascript dentro de html
